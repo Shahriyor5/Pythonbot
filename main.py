@@ -6,7 +6,7 @@ from scipy.ndimage import maximum_filter
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-TOKEN = 'YOUR_BOT_TOKEN'  # O'z tokeningni bu yerga qo'y
+TOKEN = '5018620219:AAG_DD2sXRyyVvJvLZ4UHqVlCzG3pIxz2Lk'  # O'z tokeningni bu yerga qo'y
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text('Salom! Menga audio fayl yubor, men uning spectrogramini chizib beraman.')
